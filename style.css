@@ -1,0 +1,115 @@
+
+body {
+
+    background-color: #ffd8d8;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+}
+
+.container {
+
+    background-color: #ff9191;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+}
+
+h1 {
+
+    color: #8b4513;
+
+}
+
+input {
+
+    padding: 10px;
+
+    border: 2px solid #8b4513;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+
+    width: calc(100% - 24px);
+
+}
+
+button {
+
+    padding: 10px 20px;
+
+    background-color: #8b4513;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #a0522d;
+
+}
+
+#love-letter {
+
+    margin-top: 20px;
+
+    color: #8b4513;
+
+    font-size: 18px;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+
+.snow-item {
+    pointer-events: none;
+}
+
+/* Make sure the love letter appears above the falling hearts */
+#love-letter {
+    position: relative;
+    z-index: 10;
+}
+
+
+button[onclick="Noo()"] {
+    padding: 10px 20px;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[onclick="Noo()"]:hover {
+    background-color: #a0522d;
+}
